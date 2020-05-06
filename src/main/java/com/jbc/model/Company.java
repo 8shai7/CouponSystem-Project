@@ -54,7 +54,6 @@ public class Company {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	@many
 	public List<Integer> getCouponIds() {
 		return couponIds;
 	}
