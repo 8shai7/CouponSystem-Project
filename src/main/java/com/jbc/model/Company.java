@@ -54,6 +54,7 @@ public class Company {
 	public void setPassword(String password) {
 		this.password = password;
 	}
+	@ElementCollection(fetch = FetchType.EAGER)
 	public List<Integer> getCouponIds() {
 		return couponIds;
 	}
